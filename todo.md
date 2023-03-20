@@ -1,0 +1,43 @@
+- [x] SID check (Name field not present so not returning it)
+- [x] Fix request header field name
+- [x] Next url and prev url
+- [x] Pagination limit 30
+- [x] Route to list categories 
+- [x] Routes to edit post info (Dept, taluk, status)
+- [x] Return details of a PID
+- [x] Uniform categories
+- [x] Uniform status
+- [x] Add remark key in post
+- [x] Taluk missing in a few posts
+- [x] Error codes
+- [x] Something wrong with update stats function
+- [x] Get taluk when making post
+- [x] Uniform return statements with error codes
+- [x] Stats week wise info and month wise info
+- [x] Bug with /stats
+- [x] SID expiry doesnt work
+- [ ] Handle sessions in a better way
+- [ ] str function called everytime handling _id field
+- [ ] Unlike a post
+- [ ] Rewrite in fastapi? yeet lol
+- [ ] Define mongo structure
+- [ ] Authenticate and authorise for mobile
+- [ ] Better auth in admin side
+- [ ] Define constants (Departments, status, otp expiry, sid expiry) somewhere accessible
+- [ ] Move functions to diff file
+- [ ] Use a constant ID for selecting doc (rn its phone for user, mail for admin, pid for post and _id/sid for session)
+- [ ] Encrypt passwords
+- [ ] Rename collection variables
+- [ ] Try except all routes
+- [ ] make route similar to admingetposts for app
+- [ ] Better pagination
+- [ ] Uniform URL names
+- [ ] Rename functions and variables lol
+- [ ] Add an easter egg for app and web
+- [ ] Redisgn this pathetic statistics storage design
+- [ ] Format code
+- [ ] Document stuff
+- [ ] Logout based on sid only for user
+- [ ] Role in auth decorator
+- [ ] Userinfo function
+- [ ] Plan and redo all routes
